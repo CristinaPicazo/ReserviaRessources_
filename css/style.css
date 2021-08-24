@@ -1,0 +1,170 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.root{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.popularHeading
+{
+    background: #d5d5d5;
+    display: flex;
+    flex-direction: row;
+}
+
+.popularHeading h2
+{
+   flex: 0.9;
+   padding-left: 20px;
+}
+
+.popularHeading i
+{
+ flex: 0.1;
+ padding-top: 20px;  
+}
+
+.popular
+{
+    display: flex;
+    flex-direction: column;
+    background: #d5d5d5;
+    height: 65vh;
+}
+
+.popular article
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    background: white;
+    border-radius: 2em;
+    width: 80%;
+    margin-top: 4em;
+
+}
+
+.popular article img
+{
+    border-radius: 2em;
+    height: 350px;
+    width: 500px
+}
+
+.popularCardMain
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.popularDescription {
+   z-index: 1;
+   background: white;
+   margin-left: -10em;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.popularDescription  h2{
+   flex: 0.2
+ }
+
+ .popularDescription  p{
+    flex: 0.7
+  }
+
+  .popularDescription  h2{
+    flex: 0.2
+  }
+ 
+  .popularDescription  div{
+     flex: 0.1
+   }
+
+   .accommodations {
+       display: flex;
+       flex-direction: column;
+   }
+
+.accommodations article{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 40px auto;
+    border: solid 2px #d5d5d5;
+    border-radius: 20px;
+    box-shadow: black;
+    height: 25vh;
+}
+
+.accommodationsDescription{
+   margin-top: -80px;
+   z-index: 1;
+   background-color: white;
+}
+
+.accommodationsDescription p, .accommodationsDescription h3,
+.accommodationsDescription div{
+   /* text-align: center; */
+ }
+
+ i{
+     color: blue;
+ }
+ 
+.accommodationsPicture img{
+    width: 100%;
+    border-radius: 20px;
+    height: 20vh;
+}
+
+.activities{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: solid 2px #d5d5d5;
+    box-shadow: 0 4px 2px -2px gray;
+    
+}
+
+figure img{
+    width: 100%;
+    height: 20vh;
+    border-radius: 20px;
+
+ }
+
+ figcaption{
+    margin-top: 20px;
+    background-color: white;
+     z-index: 1;
+     margin-bottom: 20px;
+    
+ }
+
+ .bottomSection h1{
+     padding-left: 5em;
+ }
+
+
+
+

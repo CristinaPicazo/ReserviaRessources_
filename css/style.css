@@ -165,6 +165,38 @@ figure img{
      padding-left: 5em;
  }
 
+ /* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.footer > .footerSection{
+    margin: 1%;
+    flex: 1;
+    flex-direction: column;
+}
+
+.footer > .footerSection h1{
+    margin-left: 2em;
+}
+
+.footer > .footerSection ul{
+    margin-left: 1em;
+}
+
+.footer > .footerSection > ul > li{
+    padding: 2%;
+    list-style-type: none;
+}
+.footer > .footerSection > ul > li > a{
+    color: black;
+    text-decoration: none;
+    font-size: 2em; 
+    
+}
+
 
 
 

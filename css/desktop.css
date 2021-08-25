@@ -1,5 +1,13 @@
-/* Header & NavBar*/
-nav{
-    display: flex;
-    flex-wrap: wrap;
+/* Marselle & Popular */
+html, body{
+    width: 50%;
+    height: 100%;
+    margin: 50px;
+    padding: 0px;
 }
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    background-color: chartreuse;
+}
+

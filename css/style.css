@@ -16,31 +16,38 @@ html, body{
 }
 
 /* Header & NavBar*/
+/* header{
+    display: flex;    
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+}
+
+header ul{
+    display: flex;
+    flex: 1;        
+}
+
 header ul li{
     display: inline;
+    flex-wrap: wrap;
+    flex: 1 1 150%;
+}
+
+header img{
+    width: 50%;
+    height: 50%;
 }
 
 header a{
     text-decoration: none;    
-    color: black;    
-}
+    color: black;
+} */
 
-header{
-    display: flex;
-
-}
-
-.navTop{
-    flex: 1;
-    flex-wrap: wrap;
-    flex: 1 1 50%;
-}
-
-
-
-
-
-/* .navTop{
+/* Nav */
+ .navTop{
     display: flex;
 }
 
@@ -55,6 +62,10 @@ header{
     margin-left: auto;
 }
 
+.navTop li{
+    list-style: none;
+}
+
 .signNav{
     font-weight: bold;
     color: #0065FC;
@@ -63,10 +74,12 @@ header{
 .navBottom{
     display: flex;
     flex-wrap: wrap;
-} */
+} 
 
 .navBottom li{
     flex: 1 1 50%;
+    list-style: none;
+    text-align: center;
 }
 
 .navBottom > ul{
@@ -78,6 +91,11 @@ header{
 .navBottom > ul > li{
     flex: 1;
     font-size: 3em;
+}
+
+.navBottom > ul > li > a{
+    text-decoration: none;    
+    color: black;
 }
 
 .activitiesNav{

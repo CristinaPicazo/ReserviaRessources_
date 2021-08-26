@@ -303,8 +303,59 @@ figure img{
     .mainSection{
         display: flex;
         flex-direction: row;
+        height: 800px;
+    }
+
+    .leftSection{
+        order: 1;
+        margin: 1em;
+        background: #d5d5d5;
+        flex: 1 1 60%;
+        
+        
+    }
+
+    
+    .accommodations{
+        display: flex;
+        flex: 1;
+        flex-flow: row wrap;
+    }
+
+    .accommodations h1{
+        flex: 1 1 100%;
+        text-align: left;
+        
     }
     
+    .accommodationsCard{
+        flex: 1 1 30%;
+        
+    }
+    
+    .accommodationsDescription{
+        height: 60%;
+
+    }
+    
+    .rightSection{
+        margin: 1em;
+        order: 2;
+        flex: 1 1 15%;
+    }
+
+    .popular{
+        display: flex;
+        flex: 1;
+        flex-flow: column;
+    }
+    
+    .popularCard{
+        flex: 1;
+        background-color: blue;
+        
+    }
+
 }
 
 

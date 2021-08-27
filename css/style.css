@@ -299,7 +299,7 @@ figure img{
 
 
 /* Desktop */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
     .mainSection{
         display: flex;
         flex-direction: row;

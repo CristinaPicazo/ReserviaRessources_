@@ -308,7 +308,7 @@ figure img{
 
     .leftSection{
         order: 1;
-        margin: 1em;
+        margin: 2% 1% 2% 2%;
         background: #d5d5d5;
         flex: 1 1 60%;
         
@@ -321,7 +321,7 @@ figure img{
         flex: 1;
         flex-flow: row wrap;
     }
-
+    
     .accommodations h1{
         flex: 1 1 100%;
         text-align: left;
@@ -329,7 +329,8 @@ figure img{
     }
     
     .accommodationsCard{
-        flex: 1 1 30%;
+        flex: 1 1 25%;
+        padding: 1%;
         
     }
     
@@ -339,9 +340,9 @@ figure img{
     }
     
     .rightSection{
-        margin: 1em;
+        margin: 2% 2% 2% 1%;
         order: 2;
-        flex: 1 1 15%;
+        flex: 1 1 30%;
     }
 
     .popular{
@@ -350,20 +351,28 @@ figure img{
         flex-flow: column;
     }
     
-    .popularCardMain{
+    .popularCard{
         display: flex;
         flex: 0.8;
         
     }
-
+    
     .popular article img{
-        width: 30px;
-        height: 30px;
+        height: 80px;
+        width: 60px;
     }
     
     .popular .popularDescription{
-        height: 30px;
-        width: 30%;
+        
+        height: 80px;
+        width: 60px;
+        
+    }
+    
+    .popularCardMain{
+        height: 80px;
+        width: 60px;
+        
     }
 
     .activities{
